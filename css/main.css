@@ -1,0 +1,172 @@
+.body{
+  margin: 0px;
+}
+/* general styles */
+.container{
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex{
+  display: flex;
+}
+
+/* head1 styles */
+.head1{
+  background-color: black;
+  height: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-left: 25px;
+  padding-top: 2px;
+  padding-bottom: 30px;
+  padding-right: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header a[href*="find" i] {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style:italic;
+}
+
+hr{
+  height: 2px;
+  background-color: yellow;
+  border: none;
+  margin:0px;
+}
+
+.head1 p{
+color: yellow;
+font-size: 30px;
+font-weight: bold;
+}
+
+.head1 nav a{
+text-decoration: none;
+padding:5px;
+color: white;
+margin-right:10px;
+font-size: 14px;
+}
+
+.head1 nav a:hover {
+  background-color: rgb(58, 58, 57);
+  padding:5px;
+  border-radius: 2px;
+}
+
+/* head2 styles */
+.head2{
+  font-style: italic;
+  font-weight: bold;
+  height: 60px;
+  padding: 1px;
+  font-size:20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  background-color: rgb(177, 177, 177);
+}
+
+/* banner style*/
+.banner{
+  background-image: url("../img/EM-business-matchmaking-software.jpg");
+  height: 400px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-size: cover;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.banner p{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.banner div{
+  text-align: left;
+  background-color: white;
+  opacity: 0.9;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  width:30%;
+  height: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-direction: column;
+  box-shadow:1px 5px 5px rgb(77, 70, 70);
+}
+
+.banner button{
+  width:320px;
+  height:40px;
+  border:none;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size:20px;
+  font-weight:bold;
+  background-color: yellow;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.banner button:hover {
+  background-color: rgb(209, 171, 0);
+  padding:5px;
+  border-radius: 2px;
+}
+
+/* item style*/
+.select{
+  padding: 15px;
+}
+
+.select .item{
+  box-shadow:1px 0px 0px rgb(206, 206, 206);
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.select .item h3{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.select .item p{
+  font-size: 12px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.select .item button{
+  width:300px;
+  height:40px;
+  flex-wrap:wrap;
+  border:none;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size:20px;
+  font-weight:bold;
+  background-color: rgb(180, 180, 180);
+  border-radius: 2px;
+}
+
+.select .item button:hover{
+  background-color: rgb(214, 195, 21);
+}
+
+/* item style */
+.footer{
+  color:white;
+  background-color: black;
+  height:40px;
+  font-size: 12px;
+  padding: 2px;
+  align-items:center
+}
